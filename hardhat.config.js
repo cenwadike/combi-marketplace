@@ -2,8 +2,6 @@ require("dotenv").config();
 
 require("@nomiclabs/hardhat-etherscan");
 require("@nomiclabs/hardhat-waffle");
-require("hardhat-gas-reporter");
-require("solidity-coverage");
 
 const fs = require("fs");
 const privateKey = fs.readFileSync(".secret").toString();
